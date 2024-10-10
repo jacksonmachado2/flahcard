@@ -1,5 +1,5 @@
     body {
-        background-color: rgb(129, 209, 192);
+        background-color: rgba(47, 31, 196, 0.979);
         font-family: 'Courier New', Courier, monospace;
     }
 #container{
@@ -8,9 +8,26 @@
 
 .cartao{
     margin: 1rem 1rem;
-    background-color: rgb(106, 189, 189);
+    background-color: rgb(31, 106, 192);
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
 }
-
+.cartao__conteudo{
+    text-align: center;
+    background-color: rgb(92, 218, 218);
+    height: 100%;
+}
+.cartao__conteudo h3{
+    background-color: azure;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+}
+c
     footer {
         background-color: rgb(0, 0, 0);
         color: white;
